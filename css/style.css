@@ -1,0 +1,206 @@
+/* ///   ///  ////  ///////  //////   ////  //////
+   ///   ///  //    //   //  //   //  //    //   //
+   /////////  ////  ///////  //   //  ////  //////
+   ///   ///  //    //   //  //   //  //    //   //
+   ///   ///  ////  //   //  //////   ////  //    //  */
+
+html {
+  font-family: 'Quicksand', sans-serif;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+}
+
+.header {
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(-90deg, #fc4a1a, #f7b733); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-90deg, #fc4a1a, #f7b733); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-90deg, #fc4a1a, #f7b733); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-90deg, #fc4a1a, #f7b733); /* Standard syntax */
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.5em;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+ li {
+  float: right;
+ }
+
+ li a {
+  display: block;
+  padding: 0 20px;
+}
+
+a {
+  color: #eee;
+  text-decoration: none;
+}
+
+#float_R {
+  float: none;
+  text-shadow: 2px 2px 8px #000;
+}
+
+.wrapper_padding {
+  padding: 1%;
+}
+
+/*  /////  /////   ///   //  /////  ////  ///   //  /////
+   //     //   //  // /  //   //    //    // /  //   //
+   //     //   //  //  / //   //    ////  //  / //   //
+   //     //   //  //   ///   //    //    //   ///   //
+    /////  /////   //    //   //    ////  //    //   // */
+
+#me {
+  margin: auto;
+  width: 50%;
+  font-size: 2em;
+}
+
+/* /////   /////    /////   //////  ////  //////
+   //     //   //  //   //    //    //    //   //
+   /////  //   //  //   //    //    ////  //////
+   //     //   //  //   //    //    //    //  //
+   //      /////    /////     //    ////  //   //  */
+
+.footer_container {
+  background: red; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(-90deg, #fc4a1a, #f7b733); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(-90deg, #fc4a1a, #f7b733); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(-90deg, #fc4a1a, #f7b733); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(-90deg, #fc4a1a, #f7b733); /* Standard syntax */
+  color: #fff;
+  text-shadow: 2px 2px 8px #000;
+}
+
+.footer_container:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+
+/*I setup the two columns in my footer. One for a description and one for links.*/
+.footer_column {
+  font-size: 2em;
+  font-family: 'Quicksand', sans-serif;
+  float: left;
+  width: 45%;
+  padding: 10px;
+  text-align: center;
+}
+
+
+/*This is for styling the links in my footer*/
+.my_link {
+ color: #fff;
+}
+
+.my_link:hover {
+  color: #fc4a1a;
+}
+
+#my_name {
+  font-size: 2.25em;
+}
+
+/***********************Contact Page************************/
+
+
+
+
+.contact_Content {
+  background-color: #000;
+  padding-bottom: 300px;
+}
+
+form {
+  font-size: 1.5rem;
+  color: #FFF;
+  padding: 5%;
+}
+
+input {
+  background-color: transparent;
+  border: 2px solid #34e89e;
+  color: #FFF;
+  padding: 5px;
+}
+
+#submit_Button, #reset_Button {
+  color: #FFF;
+  margin: 2%;
+  padding: .25% 1%;
+}
+
+#submit_Button:hover, #reset_Button:hover {
+  background-color: #34e89e;
+  text-shadow: 2px 2px 8px #000;
+}
+
+#message_Field {
+  width: 500px;
+}
+
+#name_Field, #email_Field {
+  width: 350px
+}
+
+
+
+
+/***********************Resume Page************************/
+
+
+
+.resume_Content {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  margin-top: -20px;
+  height: 100%;
+}
+
+.resume_Header {
+  padding-left: 5%;
+  padding-top: 5%;
+}
+
+.resume_Header a {
+  color: #34e89e;
+}
+
+.resume_Header a:hover {
+  color: #0f3443;
+}
+
+.resume {
+  color: #fff;
+  padding-left: 5%;
+}
+
+/***********************Website Page************************/
+
+.website_background {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  margin-top: -20px;
+}
+
+.my_work_content {
+  padding: 5%;
+  height: 100%;
+}
+
+#my_work_content_lvl2 {
+  padding: 2% 0%;
+  font-size: 1.5em;
+}
